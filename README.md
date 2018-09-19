@@ -1,16 +1,10 @@
-**Edit a file, create a new file, and clone from Bitbucket in under 2 minutes**
+## Stock Portfolio Tracker
 
-When you're done, you can delete the content in this README and update the file with details for others getting started with your repository.
-
-*We recommend that you open this README in another tab as you perform the tasks below. You can [watch our video](https://youtu.be/0ocf7u76WSo) for a full demo of all the steps in this tutorial. Open the video in a new tab to avoid leaving Bitbucket.*
-
----
-
-## Edit a file
-
-You’ll start by editing this README file to learn how to edit a file in Bitbucket.
-
-1. Click **Source** on the left side.
+Stock Portfolio Tracker is a Google Sheet that tracks stock performance.  It uses the IMPORTXML buildin function to fetch stock information from https://quotes.wsj.com. The tracker 
+has the following features:
+1. It has a **Summary** sheet to provide summary information of all the stocks
+2. Each **Stock** portfolio will be placed in a separate stock sheet.  To create a stock sheet, user needs to provide the stock's URL from the https://quotes.wsj.com/ to create the stock sheet
+2. A custom menu **Stock Quotes** that stores custom functions
 2. Click the README.md link from the list of files.
 3. Click the **Edit** button.
 4. Delete the following text: 
