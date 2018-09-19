@@ -2,14 +2,10 @@
 
 Stock Portfolio Tracker is a Google Sheet that tracks stock performance.  It uses the IMPORTXML buildin function to fetch stock information from https://quotes.wsj.com. The tracker 
 has the following features:
+
 1. It has a **Summary** sheet to provide summary information of all the stocks
 2. Each **Stock** portfolio will be placed in a separate stock sheet.  To create a stock sheet, user needs to provide the stock's URL from the https://quotes.wsj.com/ to create the stock sheet
-2. A custom menu **Stock Quotes** that stores custom functions
-2. Click the README.md link from the list of files.
-3. Click the **Edit** button.
-4. Delete the following text: 
-5. After making your change, click **Commit** and then **Commit** again in the dialog. The commit page will open and you’ll see the change you just made.
-6. Go back to the **Source** page.
+3. A custom menu **Stock Quotes** that stores custom functions
 
 ---
 
