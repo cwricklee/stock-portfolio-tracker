@@ -1,3 +1,16 @@
+## Introduction
+
+A couple years ago when I started investing in stock market, my main objective was to learn how online trading of stock works because many of my friends and family 
+were talking about it. Once I started having multiple transactions, I decided to keep the trading info in a spreadsheet and Google Sheet was chosen because it is not only free, but also
+accessable anytime anywhere. I then also learned about **GOOGLEFINANCE** and used it to automate the retrival of stock info.  However, for some reasons, after using it for a while for 
+stocks in Hong Kong and Shanghai-Hong Kong Stock Connect, GOOGLEFINANCE stopped working for those stocks in Shanghai-Hong Kong Stock Connect.  Furthermore, when the spreadsheet gets larger, the refresh might take a long time and 
+GOOGLEFINANCE might not work when retriving stock quotes due to various reasons. 
+
+Because of all these reasons, I've been looking for alternatives for quite sometimes. After checking various solutions on the Internet without very satisfactory results, I decided to 
+create a solution myself. I find that **IMPORTXML** is a viable solution for this situation and apparently quotes from **The Wall Street Journal** is quite comprehensive and up to date.
+
+---
+
 ## Stock Portfolio Tracker
 
 Stock Portfolio Tracker is a Google Sheet that tracks stock performance.  It uses the IMPORTXML buildin function to fetch stock information from https://quotes.wsj.com/. The tracker 
