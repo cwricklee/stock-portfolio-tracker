@@ -6,19 +6,23 @@ accessable anytime anywhere. I then also learned about **GOOGLEFINANCE** and use
 stocks in Hong Kong and Shanghai-Hong Kong Stock Connect, GOOGLEFINANCE stopped working for those stocks in Shanghai-Hong Kong Stock Connect.  Furthermore, when the spreadsheet gets larger, the refresh might take a long time and 
 GOOGLEFINANCE might not work when retriving stock quotes due to various reasons. 
 
-Because of all these reasons, I've been looking for alternatives for quite sometimes. After checking various solutions on the Internet without very satisfactory results, I decided to 
+Because of all these reasons, I have to look for an alternative. After checking various solutions on the Internet without very satisfactory results, I decided to 
 create a solution myself. I find that **IMPORTXML** is a viable solution for this situation and apparently quotes from **The Wall Street Journal** is quite comprehensive and up to date.
 
 ---
 
 ## Stock Portfolio Tracker
 
-Stock Portfolio Tracker is a Google Sheet that tracks stock performance.  It uses the IMPORTXML buildin function to fetch stock information from https://quotes.wsj.com/. The tracker 
+Stock Portfolio Tracker is a Google Sheet that tracks stock performance.  It uses the **IMPORTXML** buildin function to fetch stock information from https://quotes.wsj.com/. The tracker 
 has the following features:
 
 1. It has a **Summary** sheet to provide summary information of all the stocks
-2. Each **Stock** portfolio will be placed in a separate stock sheet.  To create a stock sheet, user needs to provide the stock's URL from the https://quotes.wsj.com/ to create the stock sheet
-3. A custom menu **Stock Quotes** that stores custom functions
+2. Each **Stock** portfolio will be placed in a separate stock sheet.  To create a stock sheet, user needs to provide the **path** to the stock's URL from the https://quotes.wsj.com/ 
+   to create the stock sheet
+3. A custom menu **Stock Quotes** that stores custom functions which currently includes
+  * Force Reload Data (fetch stock info in the current stock sheet)
+  * Force Reload All Data (fetch stock info of all the stock sheet in the Google Sheet)
+  * Create New Stock Sheet (create a new stock sheet with the path to the stock's URL in WSJ)
 
 ---
 
