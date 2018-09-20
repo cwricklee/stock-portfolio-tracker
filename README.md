@@ -7,7 +7,8 @@ stocks in Hong Kong and Shanghai-Hong Kong Stock Connect, GOOGLEFINANCE stopped 
 GOOGLEFINANCE might not work when retriving stock quotes due to various reasons. 
 
 Because of all these reasons, I have to look for an alternative. After checking various solutions on the Internet without very satisfactory results, I decided to 
-create a solution myself. I find that **IMPORTXML** is a viable solution for this situation and apparently quotes from **The Wall Street Journal** is quite comprehensive and up to date.
+create a solution myself. I find that using **IMPORTXML** is a viable solution for this situation and apparently stock quotes from **The Wall Street Journal** is quite comprehensive 
+and up to date.
 
 ---
 
@@ -34,8 +35,4 @@ Add a new stock sheet:
 1. From the **Stock Quotes** menu and choose **Create New Stock Sheet**.  It will ask for the **path** of the stock from the https://quotes.wsj.com/ site.  
    E.g. for Apple Stock at https://quotes.wsj.com/US/XNAS/AAPL, the **path** is **US/XNAS/AAPL**.
 2. A sheet based on a template and named after the Stock Symbol will be created.  It will also fetch the latest stock price and relevant information of the stock.
-
----
-
-## Clone a repository
 
