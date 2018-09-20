@@ -20,6 +20,7 @@ has the following features:
 2. Each **Stock** portfolio will be placed in a separate stock sheet.  To create a stock sheet, user needs to provide the **path** to the stock's URL from the https://quotes.wsj.com/ 
    to create the stock sheet
 3. A custom menu **Stock Quotes** that stores custom functions which currently includes
+
   * Force Reload Data (fetch stock info in the current stock sheet)
   * Force Reload All Data (fetch stock info of all the stock sheet in the Google Sheet)
   * Create New Stock Sheet (create a new stock sheet with the path to the stock's URL in WSJ)
