@@ -36,3 +36,8 @@ Add a new stock sheet:
    E.g. for Apple Stock at https://quotes.wsj.com/US/XNAS/AAPL, the **path** is **US/XNAS/AAPL**.
 2. A sheet based on a template and named after the Stock Symbol will be created.  It will also fetch the latest stock price and relevant information of the stock.
 
+
+## Special Notes
+
+1. As I am a casual investor with very limited knowledge in trading, the terminology and calculations used are simply based on my own understanding which might not be applicable in professional enviornment.
+2. In the Stock Transaction sheet, row 15-20 are hidden with some sample transactions. These transactions are for reference only and they are not included in the calculations.
