@@ -1,3 +1,6 @@
+**As this project uses Google Apps Script which is part of Google OAuth web clients.  All Google OAuth web clients require verification by Google and seems very complicated in my situation.**
+
+
 ## Introduction
 
 A couple years ago when I started investing in stock market, my main objective was to learn how online trading of stock works as many of my friends and family members 
@@ -17,25 +20,33 @@ and up to date.
 Stock Portfolio Tracker is a Google Sheet that tracks stock performance.  It uses the **IMPORTXML** buildin function to fetch stock information from https://quotes.wsj.com/. The tracker 
 has the following features:
 
-1. It has a **Summary** sheet to provide summary information of all the stocks
+1. It has a **Summary** sheet to provide summary information of all the stocks.
 2. Each **Stock** portfolio will be placed in a separate stock sheet.  To create a stock sheet, user needs to provide the **path** to the stock's URL from the https://quotes.wsj.com/ 
-   to create the stock sheet
+   to create the stock sheet.
 3. A custom menu **Stock Quotes** that stores custom functions which currently includes
 
-  * Force Reload Data (fetch stock info in the current stock sheet)
-  * Force Reload All Data (fetch stock info of all the stock sheets in the Google Sheet)
-  * Create New Stock Sheet (create a new stock sheet with the path to the stock's URL in WSJ)
+   * Force Reload Data (fetch stock info in the current stock sheet)
+   * Force Reload All Data (fetch stock info of all the stock sheets in the Google Sheet)
+   * Create New Stock Sheet (create a new stock sheet with the path to the stock's URL in WSJ)
 
 ---
 
 ## Usage
 
-Add a new stock sheet:
+### Get a copy of the spreadsheet:
+
+1. Get a copy of the Google Sheet [here](https://docs.google.com/spreadsheets/d/17G_i9EVb06CQ74aik3Bh0vuXqvS6nm-mufse0-apAMI/edit?usp=sharing) and open in Google Chrome browser.
+2. Login to Google account to access the full functionality of the Google sheet.
+3. Under the **File** menu, click **Make a copy...** to create a copy to keep track of personal stock transations.
+
+### Add a new stock sheet:
 
 1. From the **Stock Quotes** menu, choose **Create New Stock Sheet**.  It will ask for the **path** of the stock from the https://quotes.wsj.com/ site.  
    E.g. for Apple Stock at https://quotes.wsj.com/US/XNAS/AAPL, the **path** is **US/XNAS/AAPL**.
 2. A sheet based on a template and named after the Stock Symbol will be created.  It will also fetch the latest stock price and relevant information of the stock.
 3. To add this stock details to the Summary sheet, click the **Add to Summary** button.
+
+---
 
 ## Special Notes
 
