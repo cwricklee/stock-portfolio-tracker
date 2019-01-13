@@ -35,7 +35,7 @@ Add a new stock sheet:
 1. From the **Stock Quotes** menu, choose **Create New Stock Sheet**.  It will ask for the **path** of the stock from the https://quotes.wsj.com/ site.  
    E.g. for Apple Stock at https://quotes.wsj.com/US/XNAS/AAPL, the **path** is **US/XNAS/AAPL**.
 2. A sheet based on a template and named after the Stock Symbol will be created.  It will also fetch the latest stock price and relevant information of the stock.
-
+3. To add this stock details to the Summary sheet, click the **Add to Summary** button.
 
 ## Special Notes
 
