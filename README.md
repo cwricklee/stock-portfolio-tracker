@@ -1,6 +1,3 @@
-**As this project uses Google Apps Script which is part of Google OAuth web clients.  All Google OAuth web clients require verification by Google and seems very complicated in my situation.**
-
-
 ## Introduction
 
 A couple years ago when I started investing in stock market, my main objective was to learn how online trading of stock works as many of my friends and family members 
@@ -55,4 +52,6 @@ This software is provided as is and I make no representations or warranties of a
 or other harmful components of this software.  I will not be liable for any damages you may suffer in connection with using, modifying, or distributing this software.
 
 ## Special Notes
-In the Stock Transaction sheet, row 15-20 are hidden with some sample transactions. These transactions are for reference only and they are not included in the calculations.
+1. This project uses Google Apps Script which is part of Google OAuth web clients.  All Google OAuth web clients require verification by Google and seems a bit complicated in my situation. I therefore didn't go through the whole process.
+For this reason, users might see an *unverified app* screen whey they try to authorized my script.
+2. In the Stock Transaction sheet, row 15-20 are hidden with some sample transactions. These transactions are for reference only and they are not included in the calculations.
