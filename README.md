@@ -48,7 +48,11 @@ has the following features:
 
 ---
 
-## Special Notes
+## Disclaimer
 
-1. As I am a casual investor with very limited knowledge in trading, the terminology and calculations used are simply based on my own understanding which might not be applicable in professional enviornment.
-2. In the Stock Transaction sheet, row 15-20 are hidden with some sample transactions. These transactions are for reference only and they are not included in the calculations.
+As I am a casual investor with very limited knowledge in trading, the terminology and calculations used are simply based on my own understanding.
+This software is provided as is and I make no representations or warranties of any kind concering the safety, suitability, lack of viruses, inaccuracies, typographical errors,
+or other harmful components of this software.  I will not be liable for any damages you may suffer in connection with using, modifying, or distributing this software.
+
+## Special Notes
+In the Stock Transaction sheet, row 15-20 are hidden with some sample transactions. These transactions are for reference only and they are not included in the calculations.
